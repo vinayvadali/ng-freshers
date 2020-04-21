@@ -20,4 +20,11 @@ export class AssignmentComponent {
     { id: 'TODO_3', type: 'Teach NodeJS', description: 'Much appreciated server-side tech', completed: true },
     { id: 'TODO_4', type: 'Teach JavaScript', description: 'A ubiquitous language in browser', completed: false }
   ];
+
+  todoslist: Todo[] = undefined;
+  selectedTodo: Todo;
+
+  onTodoSelected(todo: Todo) {
+    this.selectedTodo = todo;
+  }
 }

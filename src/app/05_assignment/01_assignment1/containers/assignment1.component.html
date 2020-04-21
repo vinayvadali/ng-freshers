@@ -7,7 +7,19 @@
     <li class="list-group-item">Create handler in the component's class</li>
     <li class="list-group-item">Display the result on the page via string interpolation</li>
   </ul>
-  <div class="container your-code">
-    <h6>Remove this &lt;h3&gt; and create your HTML here</h6>
+  <div class="container your-code" >
+    <div class="row" style="padding-top: 30px;">
+      <div class="col">
+        <input type="text" class="form-control col-sm-3" #ipText (input)=display(ipText.value)>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <p>{{result}}</p>
+      </div>
+    </div>
+    
+    
   </div>
 </div>

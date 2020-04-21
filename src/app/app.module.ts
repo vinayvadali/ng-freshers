@@ -10,7 +10,7 @@ import { TodoModule } from './todo/todo.module';
 import { AssignmentModule } from './05_assignment/assignment.module';
 
 const FEATURE_MODULES_TAUGHT = [
-  // DatabindingModule,
+   //DatabindingModule,
   // BuiltInDirectivesModule
   // PipesModule
   // DirectivesModule,
